@@ -1,0 +1,5 @@
+1. HOME=/home/student
+
+2. Ce sont les répertoires dans lesquels le shell cherche la commande qu'on écrit au clavier.
+   La recherche se fait dans l'ordre des répertoires contenus dans la variable PATH et si il ne trouve pas la commande, un message
+   d'erreur s'affiche. Cela nous permet de ne pas specifier le chemin complet a chaque fois que l'on utilise une commande.
