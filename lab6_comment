@@ -2,6 +2,8 @@
 
 2. Ce sont les répertoires dans lesquels le shell cherche la commande qu'on écrit au clavier. La recherche se fait dans l'ordre des répertoires contenus dans la variable PATH et si il ne trouve pas la commande, un message d'erreur s'affiche. Cela nous permet de ne pas specifier le chemin complet a chaque fois que l'on utilise une commande.
 
+3. Utilisation de la commande: ps -u ilyes
+
 4. Utilisation de la commande: sudo mv running_process.sh /opt
 
 5. Utilisation de la commande: export PATH=$PATH:/opt
