@@ -1,5 +1,11 @@
 1. HOME=/home/student
 
-2. Ce sont les répertoires dans lesquels le shell cherche la commande qu'on écrit au clavier.
-   La recherche se fait dans l'ordre des répertoires contenus dans la variable PATH et si il ne trouve pas la commande, un message
-   d'erreur s'affiche. Cela nous permet de ne pas specifier le chemin complet a chaque fois que l'on utilise une commande.
+2. Ce sont les répertoires dans lesquels le shell cherche la commande qu'on écrit au clavier. La recherche se fait dans l'ordre des répertoires contenus dans la variable PATH et si il ne trouve pas la commande, un message d'erreur s'affiche. Cela nous permet de ne pas specifier le chemin complet a chaque fois que l'on utilise une commande.
+
+4. Utilisation de la commande: sudo mv running_process.sh /opt
+
+5. Utilisation de la commande: export PATH=$PATH:/opt
+
+6. Il n'est plus possible d'exécuter le script à partir de n'importe quel endroit. Si l'on souhaite configurer PATH de façon permanente nous devons éditer le fichier de configuration de notre shell afin d'y ajouter la commande de la question 5. pour qu'elle soit excecutée lors du démarrage du shell
+
+7. c'est le shell BASH qui est ici utilisé, nous devons alors éditer notre fichier /home/ilyes/.bashrc et y ajouter la commande qui nous permet d'ajouter le chemin /opt à la variable d'environnement PATH à l'aide de la commande suivante: echo 'export PATH=$PATH:/opt' >> /home/ilyes/.bashrc
